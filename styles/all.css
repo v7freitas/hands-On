@@ -1,6 +1,7 @@
 @import url("./header.css");
 @import url("./alunos.css");
 @import url("./button.css");
+@import url("./table.css");
 
 :root{
     --fundo:#ededed;
@@ -24,4 +25,8 @@ html, body {
 
 body {
   background-color: var(--fundo);
+}
+
+main {
+  padding: 0 20px;
 }

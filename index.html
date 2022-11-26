@@ -31,31 +31,39 @@
           <h1 class="student-header__title">Alunos</h1>
           <button class="button button--success">Novo Aluno</button>
         </header>
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Nome</th>
-              <th>Matrícula</th>
-              <th>Cursos</th>
-              <th>Ações</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Ronan</td>
-              <td>001</td>
-              <td>Sistema para internet</td>
-              <td><button>Editar</button></td>
-            </tr>
-            <tr>
-              <td>Adalberto</td>
-              <td>002</td>
-              <td>Sistema para internet</td>
-              <td><button>Editar</button></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-container">
+          <table class="table table--stripe">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Matrícula</th>
+                <th>Cursos</th>
+                <th>Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ronan</td>
+                <td>001</td>
+                <td>Sistema para internet</td>
+                <td><button class="button button--success">Editar</button></td>
+              </tr>
+              <tr>
+                <td>Adalberto</td>
+                <td>002</td>
+                <td>Sistema para internet</td>
+                <td><button class="button button--success">Editar</button></td>
+              </tr>
 
+              <tr>
+                <td>Adalberto</td>
+                <td>003</td>
+                <td>Sistema para internet</td>
+                <td><button class="button button--success">Editar</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
           <dialog >
             <header>
               <h3>Novo aluno</h3>
@@ -81,13 +89,13 @@
             </form>
           </dialog>
       </section>
-      <section>
-        <header>
-          <h1>Disciplina</h1>
+      <section class="subject-list">
+        <header class="subject-header">
+          <h1 class="subject-header__title">Disciplina</h1>
         </header>
-        <div>
-          <h3>Nome da disciplina</h3>
-          <ul>
+        <div class="subject-card">
+          <h3 class="subject-card__title">Nome da disciplina</h3>
+          <ul class="subject-card__list">
             <li>carga horária: 16h</li>
             <li>Professor: Pessoa da Silva</li>
             <li>Status <span>em aberto</span></li>
