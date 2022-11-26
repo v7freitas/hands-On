@@ -1,0 +1,25 @@
+.header {
+	background-color: var(--azul);
+	padding: 20px 0 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header__logo {
+	width: 100%;
+	height: 60px;
+	object-fit: contain;
+}
+
+.nav-header {
+	padding: 20px 0 10px;
+}
+
+.nav-header__link, .nav-header__link--buttom {
+color: var(--branco);
+}
+
+.nav-header__link {  
+	padding: 0 10px;
+}
