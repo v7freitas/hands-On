@@ -10,3 +10,9 @@
     --danger: #a40d0d;
     --danger-hover: #cf2828;
 }
+
+
+
+.header {
+    background-color: var(--azul) ;
+}
