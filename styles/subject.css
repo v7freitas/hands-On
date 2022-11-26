@@ -1,0 +1,30 @@
+.subject-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subject-card {
+  height: 250px;
+  max-width: 300px;
+  background-color: var(--branco);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.subject-card__title {
+  font-size: 1.1em;
+}
+
+.subject-card__list {
+  padding-bottom: 10px;
+}
+
+.subject-card__list li {
+  line-height: 2;
+}
+
+.subject-card p {
+  color: var(--cinza);
+}

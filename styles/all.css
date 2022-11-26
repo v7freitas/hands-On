@@ -1,7 +1,10 @@
 @import url("./header.css");
-@import url("./alunos.css");
+@import url("./section.css");
 @import url("./button.css");
 @import url("./table.css");
+@import url("./subject.css");
+@import url("./tags.css");
+@import url("./footer.css");
 
 :root{
     --fundo:#ededed;
