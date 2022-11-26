@@ -13,6 +13,21 @@
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 992px)  { 
+  .subject-list {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .subject-card {
+    margin-right: 5px;
+  }
+  
+}
+
+
+
 .subject-card__title {
   font-size: 1.1em;
 }
