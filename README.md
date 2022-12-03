@@ -2,11 +2,6 @@
 
 Projeto desenvolvido para servir de apoio e referência para os alunos de pós graduação em Desenvolvimento de Aplicações Web na disciplina de Introdução a programação com scripts
 
-## Available Scripts
-
-Executar no diretório do projeto:
-
-
 ### JSON Server
 #### Instalação
 
@@ -103,8 +98,30 @@ json-server --watch db.json
 | **PUT** | /disciplinas/1 | Atualiza os dados de uma disciplinas
 | **DELETE** | /disciplinas/1 | Remove uma disciplinas
 
+## Desafio
+### Parte 1
+* Ajustar o html da seção de disciplinas de acordo com o layout proposto;
+* Criar uma função para exibir os cards de acordo com os dados obtidos da api ``GET: /disciplinas``
+![screen](layout/desafio/tela-disciplina-desafio.png)
 
-IMPORTANTE!
+### Parte 2
+* Quando clicar no botão **Nova disciplina** deverá abrir o formulário de cadastro da disciplina;
+* Salvar os dados do formulário na API api ``POST: /disciplinas``
+![screen](layout/desafio/tela-disciplina-modal.png)
+
+### Parte 3
+* Quando clicar no botão **editar** no card de disciplina deve abrir o modal de edição carregando todas as informações da disciplina;
+* O título do modal será Editar Disciplina;
+* Salvar os dados do formulário na API api  ``PUT: /disciplinas/:id``
+![screen](layout/desafio/tela-disciplina-editar.png)
+
+### Parte 3
+* Quando clicar no botão **apagar** no card de disciplina deve excluir a disciplina;a;
+* apagar os dados da Disciplina na API api  ``DELETE: /disciplinas/:id``
+
+### IMPORTANTE
+Todos os layouts se encontram na pasta ``layout/desafio/``
+
 Se você está contribuindo com este projeto, é recomendável que você saiba:
 * [HTML5](https://www.w3c.br/pub/Cursos/CursoHTML5/html5-web.pdf)
 * [CSS](https://www.w3c.br/Cursos/CursoCSS3/)
