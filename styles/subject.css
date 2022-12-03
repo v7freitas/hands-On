@@ -1,11 +1,11 @@
 .subject-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
 }
 
 .subject-card {
-  height: 250px;
+  min-height: 250px;
   max-width: 300px;
   background-color: var(--branco);
   border-radius: 10px;
