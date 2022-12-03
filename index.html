@@ -29,10 +29,10 @@
       <section class="section-wrapper">
         <header class="section-header">
           <h1 class="section-header__title">Alunos</h1>
-          <button class="button button--success">Novo Aluno</button>
+          <button class="button button--success" onclick="openStudentModal()">Novo Aluno</button>
         </header>
         <div class="table-container">
-          <table class="table table--stripe">
+          <table class="table table--stripe" id="student-table">
             <thead>
               <tr>
                 <th>Nome</th>
@@ -42,40 +42,34 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>Ronan</td>
-                <td>001</td>
-                <td>Sistema para internet</td>
-                <td align="center">
-                  <button class="button button--danger">Apagar</button>
-                  <button class="button button--success">Editar</button>
-                </td>
-              </tr>
-              
             </tbody>
           </table>
         </div>
-          <dialog class="modal" id="student-modal">
+          <dialog  class="modal" id="student-modal">
             <div class="modal__container" >
               <header class="modal__header">
                 <h3>Novo aluno</h3>
               </header>
-              <form class="modal__form">
+              <form id="student-form" class="modal__form">
                 <fieldset>
                   <label for="nome">Nome</label>
                   <input type="text" placeholder="Nome do aluno..." name="nome" id="nome">
-
                   <label>Matrícula</label>
-                  <input type="number" placeholder="Matrícula" id="matricula" name="matricula">
+                  <input type="text" placeholder="Matrícula" id="matricula" name="matricula">
                   <label>Curso</label>
-                  <select>
-                    <option>selecione</option>
+                  <select name="curso" id="curso">
+                    <option value="">selecione</option>
                     <option value="Sistemas para internet">Sistemas para internet</option>
                     <option value="Redes">Redes</option>
                   </select>
                 </fieldset>
                 <div class="modal__form-buttons">
-                  <button class="button button--danger" type="reset">Cancelar</button>
+                  <button 
+                    class="button button--danger" 
+                    type="reset" 
+                    onclick="closeStudentModal()">
+                      Cancelar
+                  </button>
                   <button class="button button--success" type="submit">Criar</button>
                 </div>
               </form>
@@ -136,5 +130,6 @@
     <footer class="footer">
       <span>Lorem, ipsum dolor sit tenetur voluptatem quod!</span>
     </footer>
+    <script src="./javaScript/scripts.js"></script>
   </body>
 </html>

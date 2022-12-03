@@ -1,4 +1,10 @@
 .modal {
+  box-sizing: border-box;
+  max-width: 800px;
+  width: 100%;
+}
+
+.modal::backdrop {
   background-color: rgba(0, 0, 0, 0.7);
   box-sizing: border-box;
   width: 100%;
