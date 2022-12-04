@@ -99,13 +99,23 @@ json-server --watch db.json
 | **DELETE** | /disciplinas/1 | Remove uma disciplinas
 
 ## Desafio
-### Parte 1
-* Ajustar o html da seção de disciplinas de acordo com o layout proposto;
-* Criar uma função para exibir os cards de acordo com os dados obtidos da api ``GET: /disciplinas``
+### Parte 1posto;
+* Adicionar botão **Nova disciplina** de acordo com o layout proposto;
+* Adicionar botões **APAGAR** e **EDITAR** nos cards de disciplina de acordo com o layout;
+* Caso o campo status receba o valor **Obrigatório** deve exibir o código
+```html
+<span class="tag tag--danger">Obrigatória</span>;
+```
+* Caso o campo status receba o valor **Opcional** deve exibir o código 
+```html
+<span class="tag tag--success">Opcional</span>;
+```
+* Criar uma função para exibir os cards de forma dinâmica consumindo os dados da api ``GET: /disciplinas``
 ![screen](layout/desafio/tela-disciplina-desafio.png)
 
 ### Parte 2
-* Quando clicar no botão **Nova disciplina** deverá abrir o formulário de cadastro da disciplina;
+* Ao clicar no botão **Nova disciplina** deverá abrir o formulário de cadastro da disciplina;
+* As opções do campo **Selecione o Status** deverão ser: **Obrigatória** e **Opcional**;
 * Salvar os dados do formulário na API api ``POST: /disciplinas``
 ![screen](layout/desafio/tela-disciplina-modal.png)
 
