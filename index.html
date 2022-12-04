@@ -29,7 +29,7 @@
       <section class="section-wrapper">
         <header class="section-header">
           <h1 class="section-header__title">Alunos</h1>
-          <button class="button button--success" onclick="openStudentModal()">Novo Aluno</button>
+          <button class="button button--success" onclick="createStudent()">Novo Aluno</button>
         </header>
         <div class="table-container">
           <table class="table table--stripe" id="student-table">
@@ -47,8 +47,8 @@
         </div>
           <dialog  class="modal" id="student-modal">
             <div class="modal__container" >
-              <header class="modal__header">
-                <h3>Novo aluno</h3>
+              <header class="modal__header"">
+                <h3 id="student-modal-title">Novo aluno</h3>
               </header>
               <form id="student-form" class="modal__form">
                 <fieldset>
@@ -70,7 +70,7 @@
                     onclick="closeStudentModal()">
                       Cancelar
                   </button>
-                  <button class="button button--success" type="submit">Criar</button>
+                  <button class="button button--success" type="submit" id="save-student">Criar</button>
                 </div>
               </form>
             </div>

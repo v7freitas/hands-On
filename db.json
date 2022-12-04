@@ -1,70 +1,10 @@
 {
   "alunos": [
     {
-      "id": 2,
-      "nome": "Murilo Victor Bento Dias",
-      "matricula": "002",
-      "curso": "Redes"
-    },
-    {
-      "id": 3,
       "nome": "Patrícia Marcela Sara Novaes",
       "matricula": "003",
-      "curso": "Sistemas para internet"
-    },
-    {
-      "nome": "Nélio Frazão Chaves",
-      "matricula": "2047645",
       "curso": "Sistemas para internet",
-      "id": 4
-    },
-    {
-      "nome": "Nélio Frazão Chaves",
-      "matricula": "2047645",
-      "curso": "Sistemas para internet",
-      "id": 5
-    },
-    {
-      "nome": "Nélio Frazão Chaves3",
-      "matricula": "2047645",
-      "curso": "Sistemas para internet",
-      "id": 6
-    },
-    {
-      "nome": "Nélio Frazão Chaves",
-      "matricula": "2047645",
-      "curso": "Sistemas para internet",
-      "id": 7
-    },
-    {
-      "nome": "asddsds",
-      "matricula": "2047645",
-      "curso": "Sistemas para internet",
-      "id": 8
-    },
-    {
-      "nome": "Marta Regina da Silva Souza Gomes ",
-      "matricula": "2047645",
-      "curso": "Sistemas para internet",
-      "id": 9
-    },
-    {
-      "nome": "Marta Regina da Silva Souza Gomes ",
-      "matricula": "2047945",
-      "curso": "Sistemas para internet",
-      "id": 10
-    },
-    {
-      "nome": "Marta Regina da Silva Souza Gomes ",
-      "matricula": "2047645",
-      "curso": "Sistemas para internet",
-      "id": 11
-    },
-    {
-      "nome": "Nélio Frazã",
-      "matricula": "2047645",
-      "curso": "Sistemas para internet",
-      "id": 12
+      "id": 3
     }
   ],
   "disciplinas": [
