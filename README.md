@@ -99,7 +99,7 @@ json-server --watch db.json
 | **DELETE** | /disciplinas/1 | Remove uma disciplinas
 
 ## Desafio
-### Parte 1posto;
+### Parte 1;
 * Adicionar botão **Nova disciplina** de acordo com o layout proposto;
 * Adicionar botões **APAGAR** e **EDITAR** nos cards de disciplina de acordo com o layout;
 * Caso o campo status receba o valor **Obrigatório** deve exibir o código
@@ -125,9 +125,13 @@ json-server --watch db.json
 * Salvar os dados do formulário na API api  ``PUT: /disciplinas/:id``
 ![screen](layout/desafio/tela-disciplina-editar.png)
 
-### Parte 3
-* Quando clicar no botão **apagar** no card de disciplina deve excluir a disciplina;a;
+### Parte 4
+* Quando clicar no botão **apagar** no card de disciplina deve excluir a disciplina;
 * apagar os dados da Disciplina na API api  ``DELETE: /disciplinas/:id``
+
+### Parte 5
+* Criar validação de input vazio para os formulários de aluno;
+* Criar validação de input vazio para os formulários de disciplina
 
 ### IMPORTANTE
 Todos os layouts se encontram na pasta ``layout/desafio/``
