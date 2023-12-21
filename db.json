@@ -1,12 +1,5 @@
 {
-  "alunos": [
-    {
-      "nome": "Patrícia Marcela Sara Novaes",
-      "matricula": "003",
-      "curso": "Sistemas para internet",
-      "id": 3
-    }
-  ],
+  "alunos": [],
   "disciplinas": [
     {
       "id": 1,
