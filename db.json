@@ -1,65 +1,12 @@
 {
-  "alunos": [
-    {
-      "nome": "Vinícius de Freitas Ferreira",
-      "matricula": "11111",
-      "curso": "Redes",
-      "id": 1
-    }
-  ],
+  "alunos": [],
   "disciplinas": [
     {
-      "id": 1,
-      "nome": "Introdução a progração com scripts",
-      "cargaHoraria": "36h",
-      "professor": "Tiago Daniel Fernando Baptista",
-      "status": "Obrigatória",
-      "observacos": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    },
-    {
-      "id": 2,
-      "nome": "Fundamentos da Computação",
-      "cargaHoraria": "60h",
-      "professor": "Marcela Vera Mendes",
-      "status": "Obrigatória",
-      "observacoes": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    },
-    {
-      "id": 2,
-      "nome": "Linguagens de Marcação",
-      "cargaHoraria": "67h",
-      "professor": "Marcela Vera Mendes",
-      "status": "Obrigatória",
-      "observacoes": "Lorem ipsum dolor sit amet consectetur adipisicing."
-    },
-    {
-      "id": 3,
-      "nome": "Português Instrumental",
-      "cargaHoraria": "50h",
+      "disciplina": "Linguagens",
+      "cargaHoraria": "16h",
       "professor": "Maitê Analu Carolina Aragão",
-      "status": "Opcional",
-      "observacoes": "Lorem ipsum dolor sit adipisicing elit."
-    },
-    {
-      "disciplina": "Linguagens",
-      "cargaHoraria": "16h",
-      "professor": "João",
-      "status": "Opcional",
-      "id": 4
-    },
-    {
-      "disciplina": "Português",
-      "matricula": "10",
-      "nome-professor": "Maria",
-      "status": "Opcional",
-      "id": 5
-    },
-    {
-      "disciplina": "Linguagens",
-      "cargaHoraria": "16h",
-      "professor": "João",
-      "status": "Opcional",
-      "id": 6
+      "status": "Obrigatoria",
+      "id": 1
     }
   ]
 }

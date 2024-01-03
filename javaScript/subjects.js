@@ -32,7 +32,7 @@ const createSubjectCardColumn = (id, disciplina, cargaHoraria, professor, status
             </ul>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div class="subject-button">
-                <button class="button button--danger" onclick="deleteSubjectTable(${id})">Apagar</button>
+                <button class="button button--danger" onclick="deleteSubjectCard(${id})">Apagar</button>
                 <button class="button button--success" onclick="editSubjectModal(${id})">Editar</button>
             </div>        
     </div>`
@@ -48,7 +48,7 @@ const createSubjectCardColumn = (id, disciplina, cargaHoraria, professor, status
             </ul>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div class="subject-button">
-                <button class="button button--danger" onclick="deleteSubjectTable(${id})">Apagar</button>
+                <button class="button button--danger" onclick="deleteSubjectCard(${id})">Apagar</button>
                 <button class="button button--success" onclick="editSubjectModal(${id})">Editar</button>
             </div>        
     </div>`
