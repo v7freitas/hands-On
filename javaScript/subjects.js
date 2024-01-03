@@ -18,12 +18,12 @@ const createSubject = () => {
 const closeSubjectModal = () => subjectModal.close();
 
 //Passo 4: Criar colunas na tabela da disciplina
-const createSubjectCardColumn = (id, nome, cargaHoraria, professor, status, observacoes) => {
+const createSubjectCardColumn = (id, disciplina, cargaHoraria, professor, status) => {
     const tableColumn = document.createElement("div");
     if(status === 'Opcional') {
         tableColumn.innerHTML = 
     `<div class="subject-card">
-            <h3 class="subject-card__title">${nome}</h3>
+            <h3 class="subject-card__title">${disciplina}</h3>
             <hr />
             <ul class="subject-card__list">
                 <li>carga horária: ${cargaHoraria}</li>
@@ -39,7 +39,7 @@ const createSubjectCardColumn = (id, nome, cargaHoraria, professor, status, obse
     } else {
         tableColumn.innerHTML = 
     `<div class="subject-card">
-            <h3 class="subject-card__title">${nome}</h3>
+            <h3 class="subject-card__title">${disciplina}</h3>
             <hr />
             <ul class="subject-card__list">
                 <li>carga horária: ${cargaHoraria}</li>
@@ -102,8 +102,8 @@ const editSubjectModal = (id) => {
         const {disciplina, cargaHoraria, professor, status} = data;
         subjectModalTitle.innerHTML = `Editar disciplina ${disciplina}`;
         document.querySelector('#disciplina').value = disciplina;
-        document.querySelector('#carga-horaria').value = cargaHoraria;
-        document.querySelector('#nome-professor').value = professor;
+        document.querySelector('#cargaHoraria').value = cargaHoraria;
+        document.querySelector('#professor').value = professor;
         document.querySelector('#status').value = status;
         saveSubjectButton.innerHTML = 'Salvar';
         openSubjectModal();

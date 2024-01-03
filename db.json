@@ -1,9 +1,9 @@
 {
   "alunos": [
     {
-      "nome": "VINÍCIUS DE FREITAS FERREIRA",
-      "matricula": "001",
-      "curso": "Sistemas para internet",
+      "nome": "Vinícius de Freitas Ferreira",
+      "matricula": "11111",
+      "curso": "Redes",
       "id": 1
     }
   ],
@@ -42,9 +42,9 @@
     },
     {
       "disciplina": "Linguagens",
-      "matricula": "16",
-      "nome-professor": "jose",
-      "status": "Obrigatoria",
+      "cargaHoraria": "16h",
+      "professor": "João",
+      "status": "Opcional",
       "id": 4
     },
     {
@@ -53,6 +53,13 @@
       "nome-professor": "Maria",
       "status": "Opcional",
       "id": 5
+    },
+    {
+      "disciplina": "Linguagens",
+      "cargaHoraria": "16h",
+      "professor": "João",
+      "status": "Opcional",
+      "id": 6
     }
   ]
 }
