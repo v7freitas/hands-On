@@ -37,7 +37,7 @@ const createStudentTableRow = (id, name, matricula, curso) => {
         <td>${curso}</td>
         <td align="center">
             <button class="button button--danger" onclick="deleteStudentTable(${id})">Apagar</button>
-            <button class="button button--succes" onclick="editStudentTable(${id})">Editar</button>
+            <button class="button button--success" onclick="editStudentModal(${id})">Editar</button>
         </td>`;
         studentTable.appendChild(tableTr);
 };
@@ -109,4 +109,26 @@ const loadStudentTable = async () => {
         console.error(error);
     }
 };
-loadStudentTable();
+
+const loadStudentTable2 = () => {
+    fetch("http://localhost:3000/alunos")
+        .then((resp) => resp.json())
+        .then((data) => {
+        data.forEach((student) => {
+          // pode ser feito assim também
+          // const { nome, matricula, curso } = student;
+            createStudentTableRow(
+            student.id,
+            student.nome,
+            student.matricula,
+            student.curso
+            );
+        });
+        })
+        .catch((error) => {
+        alert("Ocorreu um erro. Tente mais tarde.");
+        console.error(error);
+        });
+    };
+    
+loadStudentTable2();

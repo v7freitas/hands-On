@@ -1,5 +1,12 @@
 {
-  "alunos": [],
+  "alunos": [
+    {
+      "nome": "VINÍCIUS DE FREITAS FERREIRA",
+      "matricula": "001",
+      "curso": "Sistemas para internet",
+      "id": 1
+    }
+  ],
   "disciplinas": [
     {
       "id": 1,
@@ -15,7 +22,7 @@
       "cargaHoraria": "60h",
       "professor": "Marcela Vera Mendes",
       "status": "Obrigatória",
-      "observacos": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      "observacoes": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
       "id": 2,
@@ -23,7 +30,7 @@
       "cargaHoraria": "67h",
       "professor": "Marcela Vera Mendes",
       "status": "Obrigatória",
-      "observacos": "Lorem ipsum dolor sit amet consectetur adipisicing."
+      "observacoes": "Lorem ipsum dolor sit amet consectetur adipisicing."
     },
     {
       "id": 3,
@@ -31,7 +38,21 @@
       "cargaHoraria": "50h",
       "professor": "Maitê Analu Carolina Aragão",
       "status": "Opcional",
-      "observacos": "Lorem ipsum dolor sit adipisicing elit."
+      "observacoes": "Lorem ipsum dolor sit adipisicing elit."
+    },
+    {
+      "disciplina": "Linguagens",
+      "matricula": "16",
+      "nome-professor": "jose",
+      "status": "Obrigatoria",
+      "id": 4
+    },
+    {
+      "disciplina": "Português",
+      "matricula": "10",
+      "nome-professor": "Maria",
+      "status": "Opcional",
+      "id": 5
     }
   ]
 }

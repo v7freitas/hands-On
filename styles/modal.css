@@ -82,3 +82,8 @@ input::placeholder {
 .modal__form-buttons .button {
   margin:  0 10px;
 }
+
+.modal__form textarea {
+  resize: none;
+  height: 100px;
+}

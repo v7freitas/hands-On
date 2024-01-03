@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  background-color: var(--fundo);
+  border: none;
 }
 
 .subject-card {
@@ -12,6 +14,17 @@
   padding: 20px;
   margin-bottom: 20px;
 }
+
+.subject-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subject-button button {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
 
 @media screen and (min-width: 768px)  { 
   .subject-list {
