@@ -99,12 +99,13 @@ const editSubjectModal = (id) => {
     fetch(`${baseUrl}/disciplinas/${id}`)
     .then((resp) => resp.json())
     .then((data) => {
-        const {disciplina, cargaHoraria, professor, status} = data;
+        const {disciplina, cargaHoraria, professor, status, observacoes} = data;
         subjectModalTitle.innerHTML = `Editar disciplina ${disciplina}`;
         document.querySelector('#disciplina').value = disciplina;
         document.querySelector('#cargaHoraria').value = cargaHoraria;
         document.querySelector('#professor').value = professor;
         document.querySelector('#status').value = status;
+        document.querySelector('#observacoes').value = observacoes;
         saveSubjectButton.innerHTML = 'Salvar';
         openSubjectModal();
         saveSubjectData(`${baseUrl}/disciplinas/${id}`, "PUT");
