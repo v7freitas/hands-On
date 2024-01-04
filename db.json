@@ -1,5 +1,12 @@
 {
-  "alunos": [],
+  "alunos": [
+    {
+      "nome": "Vinícius de Freitas Ferreira",
+      "matricula": "342352",
+      "curso": "Redes",
+      "id": 1
+    }
+  ],
   "disciplinas": [
     {
       "disciplina": "Linguagens",
@@ -7,6 +14,13 @@
       "professor": "Maitê Analu Carolina Aragão",
       "status": "Obrigatoria",
       "id": 1
+    },
+    {
+      "disciplina": "matematica",
+      "cargaHoraria": "50h",
+      "professor": "Marcela Vera Mendes",
+      "status": "Obrigatoria",
+      "id": 4
     }
   ]
 }

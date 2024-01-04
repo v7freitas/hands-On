@@ -29,7 +29,7 @@
 @media screen and (min-width: 768px)  { 
   .subject-list {
     flex-direction: row;
-    justify-content: space-between;
+    gap: 6.85%;
     flex-wrap: wrap;
   }
 
