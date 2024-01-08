@@ -18,7 +18,7 @@ const createSubject = () => {
 const closeSubjectModal = () => subjectModal.close();
 
 //Passo 4: Criar colunas na tabela da disciplina
-const createSubjectCardColumn = (id, disciplina, cargaHoraria, professor, status) => {
+const createSubjectCardColumn = (id, disciplina, cargaHoraria, professor, status, observacoes) => {
     const tableColumn = document.createElement("div");
     if(status === 'Opcional') {
         tableColumn.innerHTML = 
@@ -26,11 +26,11 @@ const createSubjectCardColumn = (id, disciplina, cargaHoraria, professor, status
             <h3 class="subject-card__title">${disciplina}</h3>
             <hr />
             <ul class="subject-card__list">
-                <li>carga horária: ${cargaHoraria}</li>
+                <li>Carga horária: ${cargaHoraria} horas</li>
                 <li>Professor: ${professor}</li>
                 <li>Status <span class="tag tag--success">${status}</span></li>
             </ul>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="max-lines">${observacoes}</p>
             <div class="subject-button">
                 <button class="button button--danger" onclick="deleteSubjectCard(${id})">Apagar</button>
                 <button class="button button--success" onclick="editSubjectModal(${id})">Editar</button>
@@ -42,11 +42,11 @@ const createSubjectCardColumn = (id, disciplina, cargaHoraria, professor, status
             <h3 class="subject-card__title">${disciplina}</h3>
             <hr />
             <ul class="subject-card__list">
-                <li>carga horária: ${cargaHoraria}</li>
+                <li>Carga horária: ${cargaHoraria} horas</li>
                 <li>Professor: ${professor}</li>
                 <li>Status <span class="tag tag--danger">${status}</span></li>
             </ul>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="max-lines">${observacoes}</p>
             <div class="subject-button">
                 <button class="button button--danger" onclick="deleteSubjectCard(${id})">Apagar</button>
                 <button class="button button--success" onclick="editSubjectModal(${id})">Editar</button>
@@ -55,7 +55,7 @@ const createSubjectCardColumn = (id, disciplina, cargaHoraria, professor, status
     }
     subjectTable.appendChild(tableColumn);
 
-    // Verificar o número de elementos já adicionados
+    // Verificar o número de elementos já adicionados 
     const elementsCount = document.querySelectorAll('.subject-list').length;
     
     // Adicionar quebra de linha após cada terceiro elemento
@@ -127,7 +127,8 @@ const loadSubjectCard = () => {
                 subject.disciplina,
                 subject.cargaHoraria,
                 subject.professor,
-                subject.status
+                subject.status,
+                subject.observacoes
             );
         });
     })

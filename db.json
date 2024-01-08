@@ -5,22 +5,66 @@
       "matricula": "342352",
       "curso": "Redes",
       "id": 1
+    },
+    {
+      "nome": "João Gabriel",
+      "matricula": "454545",
+      "curso": "Redes",
+      "id": 2
+    },
+    {
+      "nome": "Amanda Cabral",
+      "matricula": "11111",
+      "curso": "Sistemas para internet",
+      "id": 3
+    },
+    {
+      "nome": "Pedro Henrique",
+      "matricula": "7777777",
+      "curso": "Sistemas para internet",
+      "id": 4
     }
   ],
   "disciplinas": [
     {
-      "disciplina": "Linguagens",
-      "cargaHoraria": "16h",
-      "professor": "Maitê Analu Carolina Aragão",
+      "disciplina": "Matemática",
+      "cargaHoraria": "50",
+      "professor": "Marcos Antônio",
       "status": "Obrigatoria",
-      "id": 1
+      "observacoes": "Disciplina obrigatória ministrada pelo professor Marcos Antônio",
+      "id": 4
     },
     {
-      "disciplina": "matematica",
-      "cargaHoraria": "50h",
-      "professor": "Marcela Vera Mendes",
+      "disciplina": "Geografia",
+      "cargaHoraria": "10",
+      "professor": "Jonathan Bandeira",
+      "status": "Opcional",
+      "observacoes": "Disciplina opcional",
+      "id": 9
+    },
+    {
+      "disciplina": "Introdução a Scripts",
+      "cargaHoraria": "30",
+      "professor": "Bruno Garcia",
       "status": "Obrigatoria",
-      "id": 4
+      "observacoes": "Aulas assíncronas",
+      "id": 10
+    },
+    {
+      "disciplina": "JavaScript ",
+      "cargaHoraria": "40",
+      "professor": "Nélio Frazão",
+      "status": "Obrigatoria",
+      "observacoes": "JavaScript no FrontEnd",
+      "id": 11
+    },
+    {
+      "disciplina": "Design UX UI",
+      "cargaHoraria": "20h",
+      "professor": "João Paulo",
+      "status": "Obrigatoria",
+      "observacoes": "Introdução ao design de Web Sites",
+      "id": 12
     }
   ]
 }
